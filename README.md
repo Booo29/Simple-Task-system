@@ -40,18 +40,22 @@ A simple and efficient task management system built with [Next.js](https://nextj
    cd task-management-system  
 
 2. Install dependencies
+    ```bash 
     npm install  
     # or  
     yarn install  
 
 3. Create a .env file in the root directory with the following variables
+    ```bash 
     DATABASE_URL="file:./dev.db"  
     JWT_SECRET="your_jwt_secret"  
 
 4. Run the Prisma migrations
+    ```bash 
     npx prisma migrate dev  
 
 5. Start the development server
+    ```bash 
     npm run dev  
     # or  
     yarn dev  
